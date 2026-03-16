@@ -1,5 +1,5 @@
 ls -> lista arquivos
 cd -> move entre diretórios
 pwd -> mostra o diretório de trabalho 
-git initi . -> cria repositório git na pasta atual
-rm -rf .git -> deleta a pasta git criada
+cat -> exibe o conteúdo do arquivo
+rm -> remove arquivo ou diretorio
