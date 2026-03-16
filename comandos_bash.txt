@@ -2,4 +2,5 @@ ls -> lista arquivos
 cd -> move entre diretórios
 pwd -> mostra o diretório de trabalho 
 cat -> exibe o conteúdo do arquivo
-rm -> remove arquivo ou diretorio
+rm -> remove arquivo ou diretório
+rm -rf -> remove de maneira recursiva e forçada todos os diretorios
