@@ -56,13 +56,13 @@ Confira o que foi aprendido no curso.
 
 ## Padrões de nomeclaturas no git
 
-docs: apenas mudanças de documentação;
-feat: uma nova funcionalidade;
-fix: a correção de um bug;
-perf: mudança de código focada em melhorar performance;
-refactor: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
-style: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
-test: adicionar ou corrigir testes.
+01. docs: apenas mudanças de documentação;
+02. feat: uma nova funcionalidade;
+03. fix: a correção de um bug;
+04. perf: mudança de código focada em melhorar performance;
+05. refactor: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
+06. style: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
+07. test: adicionar ou corrigir testes.
 
 ----
 
