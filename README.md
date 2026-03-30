@@ -1,71 +1,70 @@
-\#Curso TMW Git \& GitHub 2026
+# 🚀 Curso TMW Git & GitHub 2026
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+Curso produzido por **Téo Calvo**, focado em conceitos essenciais de versionamento de código e colaboração remota utilizados no dia a dia do desenvolvedor.
 
-Curso produzido por Téo Calvo, ensinando conceitos básicos no qual são utilizados no dia a dia do uso de Git \& GitHub.
+---
 
-Focado em ensinar no versionamento de códigos e repositórios remotos com GitHub.
+## 📚 Conteúdo do Curso
+O treinamento abordou desde os fundamentos até fluxos avançados de trabalho:
+* **Versionamento de códigos** e repositórios remotos.
+* **GitFlow** e boas práticas de ramificação.
+* Integração e produtividade com **VS Code**.
+* Fluxos de contribuição para projetos **Open-Source**.
 
+---
 
+## 🛠️ Fluxos de Trabalho (Cheat Sheet)
 
-O curso além dos conceitos básicos, também da acesso ao aprendizado de como trabalhar com GitFlow e VSCode.
+### 1. Fluxo Git Local
+Ideal para desenvolvimento individual e testes rápidos.
+1. `git checkout -b <nova-branch>`
+2. *Criação ou atualização de arquivos*
+3. `git status`
+4. `git add <arquivos>`
+5. `git commit -m "minha mensagem"`
+6. `git checkout main`
+7. `git merge <nova-branch>`
 
-Confira o que foi aprendido no curso.
+### 2. Fluxo GitHub ↔️ Local (Projetos Próprios/Empresa)
+Padrão para colaboração em equipe com repositórios centralizados.
+1. `git clone <endereco-do-projeto>`
+2. `git checkout -b <nova_branch>`
+3. `git add .` + `git commit -m "nova mensagem"`
+4. `git push origin <nova_branch>`
+5. **Abrir Pull Request** no GitHub para a `main`
+6. `git checkout main`
+7. `git branch -D <nova_branch>` (Limpeza local)
 
-## Fluxo de trabalho Git local
+### 3. Fluxo Open-Source (Fork & Pull)
+Como contribuir com projetos de terceiros de forma segura.
+1. **Fork** do projeto original para seu perfil.
+2. `git clone <endereco-do-projeto-fork>`
+3. Realizar alterações em uma branch específica.
+4. `git push origin <nova_branch>`
+5. **Abrir Pull Request** da sua branch para a `main` do projeto original.
 
-01. git checkout -b <nova-branch>
-02. cria ou atualiza arquivos
-03. git status
-05. git add *arquivos*
-06. git status
-07. git commit -m "minha mensagem"
-08. git checkout main
-09. git merge nova_branch
+---
 
-## Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
-01. git clone <endereco do projeto>
-02. git checkout -b <nova_branch>
-03. alterações de arquivos
-04. git status
-05. git add *arquivos*
-06. git status
-07. git commit -m "nova mensagem"
-08. git push origin <nova_branch>
-09. abrir Pull request no GitHub para main
-10. excluir <nova_branch> origin
-11. git checkout main
-12. git branch -D <nova_branch>
+## 📝 Padronização de Nomenclatura (Conventional Commits)
 
-## Fluxo de trabalho GitHub <> Local (projetos open-source)
-01. Fork do projeto para seu próprio github
-02. git clone <endereco do projeto fork>
-03. git checkout -b <nova_branch>
-04. alterações de arquivos
-05. git status
-06. git add *arquivos*
-07. git status
-08. git commit -m "nova mensagem"
-09. git push origin <nova_branch>
-10. abrir Pull request no GitHub da branch fork para a main do projeto original
-11. excluir <nova_branch> origin
-12. git checkout main
-13. git branch -D <nova_branch>
+Utilizamos padrões para manter o histórico de commits limpo e semântico:
 
-----
+| Prefixo | Descrição |
+| :--- | :--- |
+| `feat` | Uma nova funcionalidade |
+| `fix` | Correção de um bug |
+| `docs` | Apenas mudanças de documentação |
+| `style` | Formatação/estilo que não afeta o código |
+| `refactor` | Mudança que não corrige bug nem add funcionalidade |
+| `perf` | Mudança focada em melhorar performance |
+| `test` | Adicionar ou corrigir testes |
 
-## Padrões de nomeclaturas no git
+---
 
-01. docs: apenas mudanças de documentação;
-02. feat: uma nova funcionalidade;
-03. fix: a correção de um bug;
-04. perf: mudança de código focada em melhorar performance;
-05. refactor: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
-06. style: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
-07. test: adicionar ou corrigir testes.
-
-----
-
-
-Curso finalizado no dia - 18/03/26
-
+## ✅ Conclusão
+* **Finalizado em:** 18/03/2026
+* **Estudante:** Alexsander
